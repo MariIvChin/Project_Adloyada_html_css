@@ -31,8 +31,12 @@
         class="navbar navbar-expand-md nav-font"
         aria-label="Fourth navbar example"
       >
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-none d-sm-block"
+            id="brand-width"
+            href="./index.html"
+          >
             <img
               class="main-logo fix-top"
               src="./img/logo_img/logo_holon.png"
@@ -46,10 +50,7 @@
               alt="logo"
             />
           </a>
-          <a
-            class="navbar-brand nav-font text-center"
-            id="brand-font"
-            href="./index.html"
+          <a class="navbar-brand nav-font" id="brand-font" href="./index.html"
             >עירית חולון - עדלאידע
           </a>
           <button
@@ -63,18 +64,17 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div
             class="collapse navbar-collapse justify-content-md-center"
             id="navbarsExample04"
           >
-            <ul class="navbar-nav ms-4 mb-2 mb-md-0">
+            <ul class="navbar-nav ms-4 mb-2 mb-md-0 align-items-end">
               <li class="nav-item">
                 <a
                   class="nav-link active nav-font"
                   aria-current="page"
                   href="./index.html"
-                  >עמוד הבית</a
+                  >ראשי</a
                 >
               </li>
               <li class="nav-item">
@@ -82,7 +82,7 @@
                   class="nav-link active nav-font"
                   aria-current="page"
                   href="./aboutus.html"
-                  >אודותנו</a
+                  >אודות</a
                 >
               </li>
               <li class="nav-item">
@@ -132,7 +132,7 @@
             />
           </div>
           <div
-            class="col-lg-7 col-md m-2 border border-2 border-warning rounded"
+            class="col-lg-7 col-md mt-2 mb-2 border border-2 border-warning rounded"
           >
             <p>
               תהלוכת העדלאידע הראשונה נערכה בתל אביב הקטנה כבר בשנה השלישית
@@ -154,7 +154,7 @@
           <div class="container mb-4">
             <div class="row">
               <div
-                class="col-lg-7 col-md m-2 text-center border border-2 border-success rounded"
+                class="col-lg-7 col-md mt-2 mb-2 text-center border border-2 border-success rounded"
               >
                 <p>
                   אחרי שנים רבות שחולון הייתה אחת מהערים הרבות של גוש דן, החליטו
@@ -198,7 +198,7 @@
             />
           </div>
           <div
-            class="col-lg-7 col-md m-2 text-center border border-2 border-success rounded"
+            class="col-lg-7 col-md mt-2 mb-2 text-center border border-2 border-success rounded"
           >
             <p>
               מוטי ששון נולד וגדל בחולון והוא בוגר בית הספר היסודי 'ביאליק'
@@ -258,7 +258,7 @@
       class="bg-color justify-content-md-center justify-content-sm-center border f-font d-none d-sm-block"
     >
       <div class="container">
-        <div class="row mt-3 mb-3 text-center">
+        <div class="row mt-2 text-center">
           <div class="col">
             <a
               href="https://www.facebook.com/holon.muni/"
@@ -293,12 +293,13 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-6">
+          <div class="col-6 col-lg-5">
             <address>
               עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס: 03-6511851
             </address>
           </div>
-          <div class="col-6">
+          <div class="col-lg-2" id="md-hide"></div>
+          <div class="col-6 col-lg-5">
             <div>נבנה ע"י MariChin LTD | כל הזכויות שמורות © 2022</div>
           </div>
         </div>

@@ -22,17 +22,17 @@ header.bg-color {
   background-color: $mainbgColor;
 }
 
-header.bg-color:hover {
-  background: #ff0000;
-  background: linear-gradient(
-    to right,
-    #ff0000 0%,
-    #ffff00 25%,
-    #05c1ff 50%,
-    #ffff00 75%,
-    #ff0000 100%
-  );
-}
+// header.bg-color:hover {
+//   background: #ff0000;
+//   background: linear-gradient(
+//     to right,
+//     #ff0000 0%,
+//     #ffff00 25%,
+//     #05c1ff 50%,
+//     #ffff00 75%,
+//     #ff0000 100%
+//   );
+// }
 
 .nav-font {
   font-family: "Varela Round", sans-serif;
@@ -55,7 +55,7 @@ li a.nav-font:hover {
 }
 
 main.bg-color {
-  background-color: $mainbgColor;
+  background-color: #ebe4e4c7;
 }
 
 h3#title-color {
@@ -91,17 +91,17 @@ footer.bg-color {
   background-color: $mainbgColor;
 }
 
-footer.bg-color:hover {
-  background: #ff0000;
-  background: linear-gradient(
-    to right,
-    #ff0000 0%,
-    #ffff00 25%,
-    #05c1ff 50%,
-    #ffff00 75%,
-    #ff0000 100%
-  );
-}
+// footer.bg-color:hover {
+//   background: #ff0000;
+//   background: linear-gradient(
+//     to right,
+//     #ff0000 0%,
+//     #ffff00 25%,
+//     #05c1ff 50%,
+//     #ffff00 75%,
+//     #ff0000 100%
+//   );
+// }
 
 footer.f-font {
   font-family: "Varela Round", sans-serif;
@@ -110,11 +110,17 @@ footer.f-font {
   color: $textColor;
 }
 
+@media (max-width: 991px) {
+  footer div#md-hide {
+    display: none;
+  }
+}
+
 .fix-top {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  right: 2px;
   z-index: 9999;
 }
 
@@ -211,4 +217,14 @@ button.btn-design:hover {
 
 .col-bg-1 {
   background: #f1f37c;
+}
+
+#brand-width {
+  width: 150px;
+}
+
+@media (max-width: 887px) {
+  #brand-width {
+    width: 70px;
+  }
 }

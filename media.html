@@ -28,8 +28,12 @@
         class="navbar navbar-expand-md nav-font"
         aria-label="Fourth navbar example"
       >
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-none d-sm-block"
+            id="brand-width"
+            href="./index.html"
+          >
             <img
               class="main-logo fix-top"
               src="./img/logo_img/logo_holon.png"
@@ -61,13 +65,13 @@
             class="collapse navbar-collapse justify-content-md-center"
             id="navbarsExample04"
           >
-            <ul class="navbar-nav ms-4 mb-2 mb-md-0">
+            <ul class="navbar-nav ms-4 mb-2 mb-md-0 align-items-end">
               <li class="nav-item">
                 <a
                   class="nav-link active nav-font"
                   aria-current="page"
                   href="./index.html"
-                  >עמוד הבית</a
+                  >ראשי</a
                 >
               </li>
               <li class="nav-item">
@@ -75,7 +79,7 @@
                   class="nav-link active nav-font"
                   aria-current="page"
                   href="./aboutus.html"
-                  >אודותנו</a
+                  >אודות</a
                 >
               </li>
               <li class="nav-item">
@@ -188,7 +192,7 @@
           <div class="mySlides">
             <div class="numbertext">6 / 1</div>
             <img
-              src="./img/media_img/edoardo-maresca-VsIcWolOLNo-unsplash.jpg"
+              src="./img/media_img/edoardo-maresca-VsIcWolOLNo-unsplash2.jpg"
               style="width: 100%"
             />
           </div>
@@ -196,7 +200,7 @@
           <div class="mySlides">
             <div class="numbertext">6 / 2</div>
             <img
-              src="./img/media_img/fili-santillan-nE_GZfPPhpQ-unsplash.jpg"
+              src="./img/media_img/fili-santillan-nE_GZfPPhpQ-unsplash2.jpg"
               style="width: 100%"
             />
           </div>
@@ -212,7 +216,7 @@
           <div class="mySlides">
             <div class="numbertext">6 / 4</div>
             <img
-              src="./img/media_img/ugur-arpaci-U18V0ToioFU-unsplash.jpg"
+              src="./img/media_img/ugur-arpaci-U18V0ToioFU-unsplash2.jpg"
               style="width: 100%"
             />
           </div>
@@ -220,7 +224,7 @@
           <div class="mySlides">
             <div class="numbertext">6 / 5</div>
             <img
-              src="./img/media_img/llanydd-lloyd-5kL77tAHTqQ-unsplash.jpg"
+              src="./img/media_img/llanydd-lloyd-5kL77tAHTqQ-unsplash2.jpg"
               style="width: 100%"
             />
           </div>
@@ -246,7 +250,7 @@
           <div class="column cursor">
             <img
               class="demo cursor"
-              src="./img/media_img/edoardo-maresca-VsIcWolOLNo-unsplash.jpg"
+              src="./img/media_img/edoardo-maresca-VsIcWolOLNo-unsplash2.jpg"
               onclick="currentSlide(1)"
               alt="Nature"
               style="width: 100%"
@@ -256,7 +260,7 @@
           <div class="column">
             <img
               class="demo cursor"
-              src="./img/media_img/fili-santillan-nE_GZfPPhpQ-unsplash.jpg"
+              src="./img/media_img/fili-santillan-nE_GZfPPhpQ-unsplash2.jpg"
               onclick="currentSlide(2)"
               alt="Snow"
               style="width: 100%"
@@ -276,7 +280,7 @@
           <div class="column">
             <img
               class="demo cursor"
-              src="./img/media_img/ugur-arpaci-U18V0ToioFU-unsplash.jpg"
+              src="./img/media_img/ugur-arpaci-U18V0ToioFU-unsplash2.jpg"
               onclick="currentSlide(4)"
               alt="Lights"
               style="width: 100%"
@@ -286,7 +290,7 @@
           <div class="column">
             <img
               class="demo cursor"
-              src="./img/media_img/llanydd-lloyd-5kL77tAHTqQ-unsplash.jpg"
+              src="./img/media_img/llanydd-lloyd-5kL77tAHTqQ-unsplash2.jpg"
               onclick="currentSlide(5)"
               alt="Lights"
               style="width: 100%"
@@ -365,7 +369,7 @@
       class="bg-color justify-content-md-center justify-content-sm-center border f-font d-none d-sm-block"
     >
       <div class="container">
-        <div class="row mt-3 mb-3 text-center">
+        <div class="row mt-2 text-center">
           <div class="col">
             <a
               href="https://www.facebook.com/holon.muni/"
@@ -400,12 +404,13 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-6">
+          <div class="col-6 col-lg-5">
             <address>
               עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס: 03-6511851
             </address>
           </div>
-          <div class="col-6">
+          <div class="col-lg-2" id="md-hide"></div>
+          <div class="col-6 col-lg-5">
             <div>נבנה ע"י MariChin LTD | כל הזכויות שמורות © 2022</div>
           </div>
         </div>
