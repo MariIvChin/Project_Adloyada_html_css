@@ -1,3 +1,29 @@
+/* Media page */
+.l-box {
+  height: 225px;
+  width: 300px;
+  transition: 2s;
+}
+
+.l-box:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 476px) {
+  iframe {
+    height: 170px;
+    width: 300px;
+  }
+}
+
+/* Light-box design */
 * {
   box-sizing: border-box;
 }
