@@ -218,8 +218,8 @@ main.bg-color {
 
 h3#title-color {
   font-family: "Roboto", sans-serif;
-  background: rgba(0, 255, 0, 0.3411764706);
-  background: linear-gradient(to left, rgba(0, 255, 0, 0.431372549) 0%, rgba(0, 255, 255, 0.3647058824) 100%);
+  background: rgba(0, 255, 0, 0.5882352941);
+  background: linear-gradient(to left, rgba(0, 255, 0, 0.662745098) 0%, rgba(0, 255, 255, 0.6235294118) 100%);
   color: #0d0d0d;
 }
 
